@@ -20,7 +20,7 @@ odd  <- function (x) x%%2==1
 sd.xts <- xts:::sd.xts
 
 #' @importFrom utils packageDescription
-#' @importFrom stats sd
+#' @importFrom stats sd lag
 #' @import xts
 #' @import zoo
 NULL
